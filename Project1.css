@@ -1,0 +1,160 @@
+:root{
+    background-color: #ffe494;
+     --green: #98bcb4;
+     --gold: #f7c325;
+     --orange: #f0843c; 
+     --red: #d4445c;
+     --dgreen:#267d6c;
+     --highlight: #fcd46c; 
+     --yellow:#f9f2d3; 
+   font-family: arial light;
+  }
+
+  
+  .grid-container {
+   display: grid;
+   grid-template-columns: 700px 300px;
+   justify-content: center;
+   padding: 10px;
+   column-gap: 50px;
+   margin: 0 auto;
+   margin-top: 200px;
+   width: 1000px;
+  }
+  
+  .grid-item1{
+   border:3px dashed var(--orange);
+   border-radius: 150px;
+   height: 300px;
+   width: 700px;
+   grid-column: 1;
+   grid-row: 1;
+   font-family: 'Raleway', sans-serif;
+  }
+  
+  
+  .pie{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2px;
+   margin: 90px; 
+   
+  }
+  
+  .e-1{
+   grid-column:1;
+   grid-row:1; 
+   margin: auto;
+  }
+  .e-2{
+   grid-column:2;
+   grid-row:1; 
+   margin: auto;
+  }
+  
+  .e-3{
+   grid-column:3;
+   grid-row:1; 
+   margin: auto;
+  }
+  .l-1{
+   grid-column:1;
+   grid-row:2; 
+   text-align: center;
+   color: var(--dgreen) ;
+   font-weight: 500;
+   font-size: 30px; 
+   font-style: italic;
+    margin-top:10px;
+  }
+  
+  .l-2{
+   grid-column:2;
+   grid-row:2; 
+   text-align: center;
+    color: var(--dgreen) ;
+   font-weight: 500;
+   font-size: 30px; 
+   font-style: italic;
+    margin-top:10px;
+  }
+  .l-3{
+   grid-column:3;
+   grid-row: 2; 
+   text-align: center;
+    color: var(--dgreen) ;
+   font-weight: 500;
+   font-size: 30px; 
+   font-style: italic;
+    margin-top:10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .grid-item2{
+   border: 3px dashed var(--gold);
+   border-radius: 100%;
+   height: 300px;
+   width: 300px;
+   grid-column: 2;
+   grid-row:1;
+   box-sizing: border-box;
+   z-index: 2;
+   padding: 60px 60px; 
+  }
+  .grid-item3{
+   border: 0px dashed black;
+   height: 300px;
+   width: 500px;
+   grid-column: 1;
+   grid-row: 2;
+   padding-left: 90px;
+   padding-right: 30px;
+   margin: 30px ;
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+  }
+  .grid-item4{
+   border: 0px solid green;
+   height: 300px;
+   width: 300px;
+   grid-column: 2;
+   grid-row:2;
+   font-size: 200px;
+   font-style: italic;
+   font-family: arial light;
+   text-decoration: underline;
+   text-decoration-style: wavy;
+  }
+  
+  mark{
+   background-color: #fcd46c;
+   color: #d4445c;
+   position: absolute;
+   content: "";
+   width: 300px;
+   height:200px;
+   z-index: 1;
+   margin-top: -20px;
+   margin-left: -30px;
+   transform: rotate(3deg);
+  }
+  
+  hr.footy{
+   border: 1px solid var(--dgreen);
+   width:50%;
+   margin:0 auto;
+  }
+  
+  
+  p{
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 15px;
+   color: var(--dgreen);
+   width: 300px; 
+  }
